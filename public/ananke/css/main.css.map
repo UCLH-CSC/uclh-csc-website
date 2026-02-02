@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/eleanivy/csc-website",
+	"sourceRoot": "//UCLCMDDPRAFSS21/Home/eleanivy/Documents/GitHub/uclh-csc-website",
 	"sources": [
 		"ananke/css/main.css"
 	],
