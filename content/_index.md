@@ -1,0 +1,15 @@
+---
+title: "Clinical Scientific Computing"
+---
+
+![test](/images/test.png)
+
+# Clinical Scientific Computing
+
+
+The **Clinical Scientific Computing (CSC)** team at  
+**University College Hospital London (UCLH)** supports clinical research,
+analytics, and computational infrastructure across the organisation.
+
+We work closely with clinicians, researchers, and IT to deliver secure,
+reproducible, and scalable computing solutions.
