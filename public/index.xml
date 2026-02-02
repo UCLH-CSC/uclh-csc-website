@@ -7,5 +7,33 @@
     <generator>Hugo</generator>
     <language>en-gb</language>
     <atom:link href="http://localhost:1313/csc-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/csc-website/team/team-member-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/csc-website/team/team-member-1/</guid>
+      <description>&lt;p&gt;Member1 works on clinical analytics and reproducible research pipelines,&#xA;supporting projects across UCLH.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/csc-website/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/csc-website/about/</guid>
+      <description>&lt;h2 id=&#34;contact-the-csc-team&#34;&gt;Contact the CSC team&lt;/h2&gt;&#xA;&lt;p&gt;For general enquiries:&lt;/p&gt;&#xA;&lt;p&gt;📧 &lt;strong&gt;TEST.nhs.uk&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/csc-website/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/csc-website/contact/</guid>
+      <description>&lt;p&gt;For enquiries, please contact:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Clinical Scientific Computing&lt;/strong&gt;&lt;br&gt;&#xA;University College Hospital London&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/csc-website/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/csc-website/projects/</guid>
+      <description>&lt;p&gt;Here are the projects we are working on&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

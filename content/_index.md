@@ -2,7 +2,7 @@
 title: "Clinical Scientific Computing"
 ---
 
-<img src="/images/test.png"
+<img src="/images/csc-logo.png"
      alt="CSC UCLH logo"
      style="max-width: 1000px; margin-bottom: 1.5rem;">
 

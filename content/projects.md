@@ -1,5 +1,5 @@
-+++
-date = '2026-01-30T11:40:27Z'
-draft = true
-title = 'Projects'
-+++
+---
+title: "Projects"
+---
+
+Here are the projects we are working on
