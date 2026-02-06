@@ -4,8 +4,10 @@
     <title>Tags on CSC UCLH</title>
     <link>http://localhost:1313/csc-website/tags/</link>
     <description>Recent content in Tags on CSC UCLH</description>
-    <generator>Hugo</generator>
-    <language>en-gb</language>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Clinical Scientific Computing</copyright>
     <atom:link href="http://localhost:1313/csc-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

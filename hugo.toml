@@ -1,4 +1,4 @@
 baseURL = "https://<UCLH-CSC>.github.io/csc-website/"
 languageCode = "en-gb"
 title = "CSC UCLH"
-theme = "ananke"
+theme = "blowfish"

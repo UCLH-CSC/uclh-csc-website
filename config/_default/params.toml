@@ -1,0 +1,20 @@
+colorScheme = "slate"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["posts", "pages"]
+
+[homepage]
+layout = "profile"
+image = "images/csc-logo.png"
+
+[author]
+name = "Clinical Scientific Computing"
+
+[header]
+layout = "fixed"
+logo = "images/csc-logo.png"
+showTitle = false
