@@ -1,13 +1,11 @@
 ---
+Description: suggest 145-160 characters for search engine optimisation.
 title: "Clinical Scientific Computing"
 ---
 
-<img src="/images/csc-logo.png"
-     alt="CSC UCLH logo"
-     style="max-width: 1000px; margin-bottom: 1.5rem;">
+<img class="thumbnailshadow" src="images/csc-logo.png"/>
 
 # Clinical Scientific Computing
-
 
 The **Clinical Scientific Computing (CSC)** team at  
 **University College Hospital London (UCLH)** supports clinical research,

@@ -3,21 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/csc-website/team/team-member-1/</loc>
-  </url>
-  <url>
     <loc>http://localhost:1313/csc-website/about/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/csc-website/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/csc-website/contact/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/csc-website/projects/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/csc-website/team/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

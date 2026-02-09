@@ -1,5 +1,5 @@
-colorScheme = "slate"
-defaultAppearance = "light"
+colorScheme = "neon"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 
 enableSearch = true
@@ -12,9 +12,17 @@ layout = "profile"
 image = "images/csc-logo.png"
 
 [author]
-name = "Clinical Scientific Computing"
+name = "UCLH-CSC"
 
 [header]
 layout = "fixed"
 logo = "images/csc-logo.png"
 showTitle = false
+
+[article]
+showDate = false
+showAuthor = false
+showViews = false
+showLikes = false
+showReadingTime = false
+showWordCount = false

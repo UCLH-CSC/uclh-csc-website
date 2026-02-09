@@ -1,4 +1,5 @@
 ---
+Description: suggest 145-160 characters for search engine optimisation.
 title: "About"
 ---
 
@@ -6,8 +7,6 @@ title: "About"
 
 For general enquiries:
 
-📧 **TEST.nhs.uk**
+📧 TEST.nhs.uk
 
 ---
-
-## Team
