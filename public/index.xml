@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 UCLH-CSC</copyright>
-    <atom:link href="http://localhost:1313/csc-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/csc-website/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Project 1</title>
+      <link>http://localhost:1313/csc-website/projects/project-1/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/projects/project-1/</guid>
+      <description>Project 1 Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/projects/project-1/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Project 2</title>
+      <link>http://localhost:1313/csc-website/projects/project-2/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/projects/project-2/</guid>
+      <description>Project 2 Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/projects/project-2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Project 3</title>
+      <link>http://localhost:1313/csc-website/projects/project-3/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/projects/project-3/</guid>
+      <description>Project 3 Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/projects/project-3/featured.jpg" />
+    </item>
     
     <item>
       <title>About</title>
@@ -27,6 +57,36 @@
       <guid>http://localhost:1313/csc-website/contact/</guid>
       <description></description>
       
+    </item>
+    
+    <item>
+      <title>John Smith</title>
+      <link>http://localhost:1313/csc-website/team/member-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/team/member-1/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/team/member-1/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>John Smith</title>
+      <link>http://localhost:1313/csc-website/team/member-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/team/member-2/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/team/member-2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Sarah Johnson</title>
+      <link>http://localhost:1313/csc-website/team/member-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/team/member-3/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/team/member-3/featured.jpg" />
     </item>
     
   </channel>

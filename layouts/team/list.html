@@ -1,0 +1,259 @@
+{{ define "main" }}
+<article class="max-w-7xl mx-auto px-4 py-8">
+  <header class="mb-12">
+    <h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
+    {{ with .Description }}
+      <p class="text-xl text-neutral-500 dark:text-neutral-400">{{ . }}</p>
+    {{ end }}
+  </header>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+    {{ range .Pages }}
+      {{ if not .Params.hidden }}
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <!-- Front of card -->
+            <div class="flip-card-front">
+              {{ $image := .Resources.GetMatch "featured.*" }}
+              {{ if $image }}
+                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="team-photo">
+              {{ else }}
+                <div class="team-photo-placeholder">
+                  <span class="text-6xl">{{ substr .Title 0 1 }}</span>
+                </div>
+              {{ end }}
+              <div class="team-info">
+                <h3 class="team-name">{{ .Title }}</h3>
+                <p class="team-title">{{ .Params.jobTitle }}</p>
+              </div>
+            </div>
+
+            <!-- Back of card -->
+            <div class="flip-card-back">
+              <div class="team-bio-content">
+                <h3 class="team-name-back">{{ .Title }}</h3>
+                <p class="team-title-back">{{ .Params.jobTitle }}</p>
+                <p class="team-bio">{{ .Params.bio }}</p>
+                
+                <div class="team-links">
+                  {{ with .Params.linkedin }}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="team-link" title="LinkedIn">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                  {{ end }}
+                  {{ with .Params.email }}
+                    <a href="mailto:{{ . }}" class="team-link" title="Email">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </a>
+                  {{ end }}
+                  {{ with .Params.twitter }}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="team-link" title="Twitter">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></svg>
+                    </a>
+                  {{ end }}
+                  {{ with .Params.website }}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="team-link" title="Website">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    </a>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</article>
+
+<style>
+/* Flip card container */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  height: 400px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Front of card */
+.flip-card-front {
+  background: linear-gradient(to bottom, transparent 0%, transparent 60%, rgba(0,0,0,0.7) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.team-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.team-photo-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  z-index: -1;
+}
+
+.team-info {
+  padding: 2rem;
+  color: white;
+  text-align: left;
+  z-index: 1;
+}
+
+.team-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.team-title {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Back of card */
+.flip-card-back {
+  background-color: white;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+html.dark .flip-card-back {
+  background-color: #1f2937;
+}
+
+.team-bio-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.team-name-back {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #1f2937;
+}
+
+html.dark .team-name-back {
+  color: #f9fafb;
+}
+
+.team-title-back {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+html.dark .team-title-back {
+  color: #9ca3af;
+}
+
+.team-bio {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+html.dark .team-bio {
+  color: #d1d5db;
+}
+
+.team-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background-color: #f3f4f6;
+  color: #4b5563;
+  transition: all 0.2s;
+}
+
+html.dark .team-link {
+  background-color: #374151;
+  color: #9ca3af;
+}
+
+.team-link:hover {
+  background-color: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+html.dark .team-link:hover {
+  background-color: #667eea;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .flip-card {
+    height: 350px;
+  }
+  
+  .team-name {
+    font-size: 1.25rem;
+  }
+  
+  .team-name-back {
+    font-size: 1.25rem;
+  }
+  
+  .team-bio {
+    font-size: 0.813rem;
+  }
+}
+</style>
+{{ end }}

@@ -1,0 +1,178 @@
+/* ========================================
+   BRAND COLOR OVERRIDES
+   ======================================== */
+
+/* Primary brand color - Jade Green */
+:root {
+  --color-primary-500: 0, 114, 124;  /* #00727C in RGB */
+  --color-primary-600: 0, 91, 99;    /* Darker shade for hover states */
+  --color-primary-400: 51, 146, 154; /* Lighter shade */
+}
+
+/* Secondary brand color - Pale Jade */
+:root {
+  --color-secondary-500: 158, 217, 209; /* #9ED9D1 in RGB */
+  --color-secondary-400: 186, 229, 223; /* Lighter */
+  --color-secondary-600: 130, 205, 195; /* Darker */
+}
+
+/* ========================================
+   APPLY COLORS TO SITE ELEMENTS
+   ======================================== */
+
+/* Links */
+a {
+  color: #00727C;
+}
+
+a:hover {
+  color: #005B63;
+}
+
+/* Buttons and interactive elements */
+.bg-primary-600,
+button.bg-primary-600 {
+  background-color: #00727C !important;
+}
+
+.bg-primary-600:hover {
+  background-color: #005B63 !important;
+}
+
+/* Tags and badges */
+.badge,
+.tag {
+  background-color: #9ED9D1;
+  color: #00727C;
+}
+
+/* Headers and emphasis */
+h1, h2, h3, h4, h5, h6 {
+  color: #00727C;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #9ED9D1;
+}
+
+/* Navigation active state */
+.menu a.active,
+nav a.active {
+  color: #00727C;
+  border-bottom-color: #00727C;
+}
+
+html.dark .menu a.active,
+html.dark nav a.active {
+  color: #9ED9D1;
+  border-bottom-color: #9ED9D1;
+}
+
+/* Accent elements */
+.accent,
+.highlight {
+  background-color: #9ED9D1;
+  color: #00727C;
+}
+
+/* Borders and dividers */
+.border-primary {
+  border-color: #00727C;
+}
+
+/* ========================================
+   TEAM CARDS - BRAND COLORS
+   ======================================== */
+
+/* Update flip card gradient to use brand colors */
+.flip-card-front {
+  background: rgba(0, 114, 124, 0.2); /* Solid, subtle overlay */
+}
+
+/* Placeholder background for team members without photos */
+.team-photo-placeholder {
+  background: linear-gradient(135deg, #00727C 0%, #9ED9D1 100%) !important;
+}
+
+/* Team card link hover color */
+.team-link:hover {
+  background-color: #00727C !important;
+  color: white !important;
+}
+
+/* ========================================
+   PROJECT CARDS - BRAND COLORS
+   ======================================== */
+
+/* Project card hover effects */
+.card:hover {
+  border-color: #00727C;
+}
+
+.card-title {
+  color: #00727C;
+}
+
+html.dark .card-title {
+  color: #9ED9D1;
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer a {
+  color: #9ED9D1;
+}
+
+footer a:hover {
+  color: #00727C;
+}
+
+/* ========================================
+   CUSTOM UTILITY CLASSES
+   ======================================== */
+
+/* Use these classes in your content */
+.bg-jade-green {
+  background-color: #00727C;
+  color: white;
+}
+
+.bg-pale-jade {
+  background-color: #9ED9D1;
+  color: #00727C;
+}
+
+.text-jade-green {
+  color: #00727C;
+}
+
+.text-pale-jade {
+  color: #9ED9D1;
+}
+
+.border-jade-green {
+  border-color: #00727C;
+}
+
+.border-pale-jade {
+  border-color: #9ED9D1;
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (max-width: 768px) {
+  /* Ensure colors remain accessible on mobile */
+  a {
+    color: #00727C;
+    text-decoration: underline;
+  }
+}

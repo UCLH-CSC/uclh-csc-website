@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on UCLH CSC</title>
+    <link>http://localhost:1313/csc-website/tags/web/</link>
+    <description>Recent content in Web on UCLH CSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 UCLH-CSC</copyright>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/csc-website/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Project 1</title>
+      <link>http://localhost:1313/csc-website/projects/project-1/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/projects/project-1/</guid>
+      <description>Project 1 Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/projects/project-1/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Project 2</title>
+      <link>http://localhost:1313/csc-website/projects/project-2/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/projects/project-2/</guid>
+      <description>Project 2 Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/projects/project-2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Project 3</title>
+      <link>http://localhost:1313/csc-website/projects/project-3/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/csc-website/projects/project-3/</guid>
+      <description>Project 3 Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/csc-website/projects/project-3/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

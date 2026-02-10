@@ -16,16 +16,35 @@
   weight = 1
 
 [[main]]
+  name = "Our Team"
+  pageRef = "team"
+  weight = 2
+
+
+[[main]]
   name = "Projects"
   identifier = "projects"
   pageRef = "/projects"
   weight = 3
 
-	[[main]]
-  	name = "project-1"
-  	parent = "projects"
-  	pageRef = "/projects/project-1"
-  	weight = 1
+	#[[main]]
+  	#name = "Project 1"
+  	#parent = "projects"
+  	#pageRef = "/projects/project-1/"
+  	#weight = 1
+
+	#[[main]]
+  	#name = "Project 2"
+  	#parent = "projects"
+  	#pageRef = "/projects/project-2/"
+  	#weight = 2
+
+
+	#[[main]]
+  	#name = "Project 3"
+  	#parent = "projects"
+  	#pageRef = "/projects/project-3/"
+  	#weight = 3
 
 [[main]]
   name = "Contact"

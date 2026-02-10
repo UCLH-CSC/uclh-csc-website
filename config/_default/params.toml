@@ -1,6 +1,4 @@
-colorScheme = "neon"
-defaultAppearance = "dark"
-autoSwitchAppearance = true
+colorScheme = "blowfish"
 
 enableSearch = true
 enableCodeCopy = true
@@ -8,8 +6,9 @@ enableCodeCopy = true
 mainSections = ["posts", "pages"]
 
 [homepage]
-layout = "profile"
+layout = "background"
 image = "images/csc-logo.png"
+cardView = true
 
 [author]
 name = "UCLH-CSC"
@@ -26,3 +25,11 @@ showViews = false
 showLikes = false
 showReadingTime = false
 showWordCount = false
+
+[list]
+showCards = true
+groupByYear = false
+cardView = true
+
+[customCSS]
+  enable = true
