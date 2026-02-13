@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "About"
+  name = "About Us"
   pageRef = "/about"
   weight = 1
 
@@ -22,7 +22,7 @@
 
 
 [[main]]
-  name = "Projects"
+  name = "Our Projects"
   identifier = "projects"
   pageRef = "/projects"
   weight = 3
@@ -47,15 +47,9 @@
   	#weight = 3
 
 [[main]]
-  name = "Contact"
+  name = "Contact Us"
   pageRef = "/contact"
   weight = 4
-
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/UCLH-CSC"
-  weight = 5
 
 #[[subnavigation]]
 #  name = "An interesting topic"

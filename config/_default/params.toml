@@ -1,35 +1,51 @@
+# Color scheme
 colorScheme = "blowfish"
 
+# Features
 enableSearch = true
 enableCodeCopy = true
-
 mainSections = ["posts", "pages"]
 
+# Contact and links
+email = "uclh.Enquiry.mpb.helpdesk@nhs.net"
+github = "https://github.com/UCLH-CSC"
+description = "UCLH-CSC"
+
+# Homepage settings
 [homepage]
-layout = "background"
-image = "images/csc-logo.png"
-cardView = true
+  layout = "profile"
+  image = "images/csc-logo.png"
+  cardView = true
 
+# Author
 [author]
-name = "UCLH-CSC"
+  name = "Clinical Scientific Computing"
 
+# Header
 [header]
-layout = "fixed"
-logo = "images/csc-logo.png"
-showTitle = false
+  layout = "fixed"
+  logo = "images/csc-logo.png"
+  showTitle = false
 
+# Article settings
 [article]
-showDate = false
-showAuthor = false
-showViews = false
-showLikes = false
-showReadingTime = false
-showWordCount = false
+  showDate = false
+  showAuthor = false
+  showViews = false
+  showLikes = false
+  showReadingTime = false
+  showWordCount = false
+  showPagination = false
+  showRelatedContent = false
+  showTableOfContents = false
+  showTaxonomies = false
 
+# List/card settings
 [list]
-showCards = true
-groupByYear = false
-cardView = true
+  showCards = true
+  groupByYear = false
+  cardView = true
 
+# Custom CSS
 [customCSS]
   enable = true

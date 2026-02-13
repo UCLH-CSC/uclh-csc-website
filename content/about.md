@@ -1,12 +1,9 @@
 ---
 Description: suggest 145-160 characters for search engine optimisation.
-title: "About"
+title: "About Us"
 ---
 
-## Contact the CSC team
+About UCLH CSC
 
-For general enquiries:
 
-📧 TEST.nhs.uk
-
----
+We are part of the [Medical Physics and Biomedical Engineering](https://www.uclh.nhs.uk/our-services/find-service/theatres-1/medical-physics-and-biomedical-engineering "MPBE") department.

@@ -2,9 +2,8 @@
 Description: suggest 145-160 characters for search engine optimisation.
 title: "Clinical Scientific Computing"
 ---
+## University College London Hospitals
 
-<img class="thumbnailshadow" src="images/csc-logo.png"/>
+Our mission statement goes here
 
-# Clinical Scientific Computing
-
-Keep this simple - Logo + 1 sentence summary of what we do
+Team photo goes here
